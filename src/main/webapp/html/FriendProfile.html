@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        
+        <meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/profile.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="../javascript/validator.js"></script>
+		<script src="../javascript/CheckLogin.js"></script>
+		<script src="../javascript/logOut.js"></script>
+		<script src="../javascript/friendProfile.js"></script>
+			
+        <title>Profile</title>
+        
+    </head>
+     
+    <body onpageshow="loadFriendProfile()">
+        
+        <div id="container"> 
+        
+        <div id="mainTitle">
+            
+            <h1>Web Friends</h1>
+            
+        </div>   
+            
+        <div id="navBar">
+                            
+            <nav id="myNav">
+
+                    <input  class="btns" type="text" id="input"  placeholder="Buscar Usuario"> 
+                                                                    
+                    <button class="btns" type="submit" id="searchBtn"><span class="glyphicon glyphicon-search"></span> Buscar</button>
+                          
+                    <a class="btns" href="Profile.html" id="profileBtn">Perfil</a>
+                    <a class="btns" href="Friends.html" id="friendsBtn">Amigos</a>
+                    <a class="btns" href="FriendshipRequest.html" id="requestBtn">Solicitudes</a> <!--<span class="badge">0</span>  --> 
+                    <a class="btns" href="Configuration.html" id="configurationBtn">Configuracion</a> 
+                    <a class="btns" href="Users.html" id="usersBtn">Usuarios</a> 
+                    <a class="btns" href="#" id="logOutBtn">Cerrar Sesion</a>
+                    
+            </nav>
+                   
+        </div>
+                   
+                
+        </div> 
+            
+        <div id="container2"> 
+              
+                <div id="left" class="col-sm-3">
+                    
+                    <div id="profilePic">
+                        
+                        <div id="backgroundImg">
+                            
+                            <figure id="figureProfile">
+                                <img src="" id="imgProfile" >
+                            </figure> 
+                            
+                        </div>
+                          
+                    </div>
+                    
+                    <div id="divProfilePhotoBtn">
+                        <input  type="file" id="profilePhotoBtn">
+                    </div>
+                    <br>
+                    <h3 id="userNick"></h3>
+                     
+            
+                </div>
+                
+                
+                <div id="middle" class="col-sm-5">
+                
+                  <!--<section id="sectionPost"> AREA DONDE SE ESCRIBE LA PUBLICACION 
+			
+				        <div id="postArea">
+				            
+					       <h3>Crear Publicacion:</h3>
+                           <div>
+					           <textarea id="postContent" placeholder="Que estas pensando?"></textarea>
+                           </div>
+                           
+                        	<section id="areaFile">
+                           		<img id="postImg" style="display:none" src="#">
+                           	</section> 
+                             
+                           <div id="divPostBtn">
+                           		<input type="file" id="myPostInputFile">
+					           	<input type="button" id="myPostBtn" value="Publicar">
+                           </div>
+                            
+				        </div>
+			
+			      </section> FIN DE AREA DE PUBLICACION -->
+			      
+                    <br>
+			
+                  <section id="allPosts"><!--AREA DE TODOS LOS POSTEOS -->
+  
+			       </section> <!--FIN DE AREA DE TODOS LOS POSTEOS -->
+                    
+               
+                </div>
+                               
+                <div id="right" class="col-sm-4">
+            
+                </div>
+            
+    
+     </div>
+        
+    </body>
+     
+    
+</html>

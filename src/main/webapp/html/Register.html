@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="../javascript/validator.js"></script>
+    <script src="../javascript/register.js"></script>
+    <script src="../javascript/CheckLogin.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script> 
+    
+    <title>Register</title>
+    
+</head>
+<body>
+
+    <header >
+        <p class="title" align="center">Nuevo Usuario</p>
+    </header>	
+    
+    <main class="loginboxRegister">
+    
+        <section >            
+            <form class="row" id="registerForm" method="POST">
+                <label id="labels">Nombre</label>
+                <input id="name" type="text"  placeholder="Ingrese nombre">    
+
+                <label id="labels">Apellido</label>    
+                <input id="lastName" type="text"  placeholder="Apellido">
+
+                <label id="labels">Fecha de Nacimiento</label><br>
+                 
+                <input id="bornDate" type="date" >
+                                      				   
+                <label id="labels">Email</label> 
+                <input id="mail" type="email"  placeholder="Ingrese email" >
+
+                <label id="labels">Repita Email</label>    
+                <input id="repeatedMail" type="email"  placeholder="Repita email" >
+
+                <label id="labels">Contraseña</label>    
+                <input id="password" type="password"  placeholder="Ingrese la contraseña" >
+
+                <label id="labels">Repita Contraseña</label>    
+                <input id="repeatedPassword" type="password" placeholder="Reingrese la contraseña" >
+                
+                 <label id="labels">Ingrese su nombre publico</label>    
+                <input id="nickname" type="text"  placeholder="Nombre publico" >
+                
+				  <div class="g-recaptcha" id="myCaptcha" data-sitekey="6LeU4C8bAAAAAOA05G1fvD7Xy1YomrXejyLNs07e"></div>
+				
+
+                <input type="submit" id="registerSubmitBtn" value="Enviar">
+                
+                <a href="http://localhost:8080/WebProyect/">Return Menu</a><br>
+                       
+            </form>
+        </section>
+    </main>    
+    
+    
+   
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+ 	<script src="javascript/CheckLogin.js"></script>  
+    <script src="javascript/validator.js"></script>
+	<script src="javascript/login.js"></script>
+
+    <title>Login</title>
+</head>
+<body>
+
+    <header id="mainHeader">
+        <p class="titles" align="center">WebFriends</p>
+    </header>
+    
+    <main class="loginbox">
+        <section >            
+            <form id="loginForm" >
+                <label id="labels">Email</label>
+                <input id="email" type="email" placeholder="Ingrese mail" >
+
+                <label id="labels">Contraseña</label>    
+                <input id="password" type="password" placeholder="Ingrese contraseña" >
+                       
+                <hr>
+                <input type="submit" id="submitBtn" value="Ingresar">
+                
+                <a href="html/ForgotPass.html">olvidaste la contraseña?Tu cuenta esta bloqueada? click aqui!</a><br>
+                <a href="html/Register.html">No tienes una cuenta? Registrate!</a>
+              
+					
+				<!--  SEGUIR BUSCANDO DESP DE TERMINAR, SERIA ALGO ASI
+				<div class="g-recaptcha" data-sitekey="obtener key"
+                data-callback="enableCaptcha"> </div>  -->
+            </form>
+        </section>
+    </main>    
+</body>
+</html>

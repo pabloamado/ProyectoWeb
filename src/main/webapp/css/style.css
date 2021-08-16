@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+#mainHeader{
+	margin:50px 100px 0px 100px;	
+}
+.loginbox{
+    height: 0px;  
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-40%);
+    box-sizing: border-box;
+    padding: 130px 40px;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.loginbox input[type="text"], input[type="password"], input[type="email"]{
+    border: none;
+    border-bottom: 1px solid #546cf3;
+    border-top: 1px solid #546cf3;        
+    outline: none;
+    height: 35px;
+    color: #000000;
+    font-size: 14px;    
+    
+}
+
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #546cf3;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: blue;
+}
+
+.loginboxRegister{
+    width: 500px;
+    height: 400px; 
+    top: 20%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 130px 40px;
+}
+
+.loginboxRegister input{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.loginboxRegister input[type="text"], input[type="password"], input[type="email"]{
+    border: none;
+    border-bottom: 1px solid #546cf3;
+    border-top: 1px solid #546cf3;        
+    outline: none;
+    height: 50px;
+    color: #000000;
+    font-size: 14px;     
+}
+
+.loginboxRegister input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #546cf3;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.loginboxRegister a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: blue;
+}
+.title{
+    font-family: Verdana;
+    font-size: 60px;
+    margin-top: 1%;
+	background-color:#546cf3;
+
+}
+.titles{
+	background-color:#546cf3;
+    font-family: Verdana;
+    font-size: 60px;
+    
+}
+
+#labels{
+    font-family: Arial;
+    font-size: 25px;
+    margin-top: 2%;
+}
+.row{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.configBtn, #returnBtn, #closeBtn{
+font-size: 16px;
+display:grid;
+margin-bottom: 10px;
+margin-top: 10px;
+    
+}
+
+.userInfo{
+	display:inline-block; 
+	width:325px; 
+	height:35px; 
+	text-align:center;
+	padding-top:5px;
+	font-family: Verdana;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.userImage{
+	width:100px; 
+	height:80px;
+	margin-right:125px;
+	margin-left:125px; 
+	float:right;
+	border:solid;
+	border-color:rgb(0, 0, 0);
+}
+
+.friendsUsersRequestsBtns{
+	width:300px;
+	height:30px; 
+	text-align:center; 
+	padding-top:5px;
+	margin-left:10px;
+}
+
+.acceptRequest, .deleteFriend{
+margin-right:10px;
+}
+
+.rejectRequest, .visitFriend{
+margin-left:10px;
+}
+
